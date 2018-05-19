@@ -5,18 +5,19 @@
 # Site
 title: Hexo
 subtitle:
-description:
+description: 前後 × 後端 × 全端
+description2: 乃是雲末梢神經的一端
 keywords:
-author: John Doe
+author: 《Curt 技術雜記》
 language:
 timezone:
-
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
-root: /
+url: https://curt6815463.github.io/curt_tech
+root: /curt_tech/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
+sidebar-avatar: 'static/curt.jpg'
 
 # Directory
 source_dir: source
@@ -78,4 +79,7 @@ theme: hexo-theme-aircloud
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: git@github.com:curt6815463/curt_tech.git
+  branch: master
+  message: v1
