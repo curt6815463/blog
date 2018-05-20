@@ -1,7 +1,7 @@
 ---
 title: Vue-Loader
 date: 2018-05-19 17:37:01
-tags: test
+tags: [vue,css]
 ---
 # Vue-Loader
 
