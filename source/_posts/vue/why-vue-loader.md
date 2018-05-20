@@ -1,15 +1,15 @@
 ---
-title: Vue-Loader
+title: 為什麼vue可以寫在.vue檔裡面？
 date: 2018-05-19 17:37:01
 tags: [vue,css]
 ---
-# Vue-Loader
+# 為什麼vue可以寫在.vue檔裡面？
 
 ## 前言
 
 想要寫一個vue應用你可以引入他的CDN，接著new出一個vue instance並開始寫裡面的邏輯，但除此之外Vue提供了別的方式來撰寫，那就是`vue-loader`
 
-### 沒有使用Vue-Loader範例
+### 沒有使用vue-loader範例
 ```html=
 <!DOCTYPE html>
 <html lang="en">
@@ -65,7 +65,7 @@ tags: [vue,css]
 如果有個方式來幫我們處理`分檔問題`是再好不過
 
 
-## 來使用Vue-loader吧！！
+## 來使用vue-loader吧！！
 
 ### 使用概念
 
@@ -96,7 +96,7 @@ $ vue init webpack my-project
 
 ### vue-loader file說明
 
-根據Vue-loader官方文件說明，一個.vue檔基本上由`template`,`script`,`style`三個部份組成
+根據vue-loader官方文件說明，一個.vue檔基本上由`template`,`script`,`style`三個部份組成
 
 1. **template**: 撰寫html以及渲染的邏輯指令，ex:v-show,v-model
 2. **css**: 可直接寫入html的css樣式(若再tag中加入scoped，則代表只有當前的.vue檔會生效)
