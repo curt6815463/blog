@@ -13,8 +13,8 @@ language:
 timezone:
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://curt6815463.github.io/curt_tech
-root: /curt_tech/
+url: https://curt6815463.github.io
+root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 sidebar-avatar: 'static/curt.jpg'
@@ -80,6 +80,5 @@ theme: hexo-theme-aircloud
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: git@github.com:curt6815463/curt_tech.git
+  repo: git@github.com:curt6815463/curt6815463.github.io.git
   branch: master
-  message: v1
