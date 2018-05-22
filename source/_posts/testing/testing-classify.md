@@ -102,8 +102,12 @@ describe('isExpire', () => {
 * Chai是Assertion Libaraies
 * Sinon主要是Testing Plugins，並自帶Aserrtion Libaraies
 * Jest主要是Testing Framework，並且有Assertion Libaraies + Testing Plugins
-
 >Jest好棒棒
+
+## 資料來源
+http://amzotti.github.io/testing/2015/03/16/what-is-the-difference-between-a-test-runner-testing-framework-assertion-library-and-a-testing-plugin/
+
+本篇文章的工具四種分類為參考amzotti想法，並加上自己的觀點
 
 <!-- 首先必須先知道−Test Double(測試替身），它可以在測試中代替那些會造成我們不便的funciton
 >Test Double類似於電影中一些危險動作，導演們會請專業替身代替影星們去執行這些事情。
