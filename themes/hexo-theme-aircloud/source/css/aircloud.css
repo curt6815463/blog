@@ -613,7 +613,7 @@ body {
   margin-left: 5px;
 }
 .post-content {
-  line-height: 20px;
+  /* line-height: 20px; */
   font-size: 15px;
   /* text-indent: 2em; */
   color: #333333;
