@@ -1,7 +1,7 @@
 ---
 title: Sinon.js 測試套件與測試替身（中）
 date: 2018-05-24 20:48:38
-tags:
+tags: testing
 ---
 # 接續Sinon.js 測試套件與測試替身（中）
 此篇 `接續Sinon.js 測試套件與測試替身（上）`
@@ -102,10 +102,11 @@ sinon.stub(jQuery, "ajax").yieldsTo("success", "ajax arg");
 
 **來把 .done 改成 .then**
 
+
 ```JavaScript=
-sinon.stub($,'ajax').usingPromise(Promise).resolves("87")
-$.ajax('123') //印出87
-  .then(function (data) {
-    console.log(data);
-  })
-```      
+  sinon.stub($,'ajax').usingPromise(Promise).resolves("87")
+  $.ajax('123') //印出87
+    .then(function (data) {
+      console.log(data);
+    })
+```
