@@ -1,7 +1,7 @@
 ---
 title: Sinon.js 測試套件與測試替身（上）
 date: 2018-05-22 20:43:44
-tags: testing
+tags: Testing
 ---
 # Sinon.js 測試套件與測試替身（上）
 

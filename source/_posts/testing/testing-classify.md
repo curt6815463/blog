@@ -1,7 +1,7 @@
 ---
 title: JavaScript中的測試工具怎麼分類？
 date: 2018-05-20 21:29:57
-tags: testing
+tags: Testing
 ---
 # 測試的工具怎麼分類？
 

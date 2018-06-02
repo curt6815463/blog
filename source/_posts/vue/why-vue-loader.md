@@ -1,7 +1,7 @@
 ---
 title: 為什麼vue可以寫在.vue檔裡面？
 date: 2018-05-19 17:37:01
-tags: [vue]
+tags: [Vue]
 ---
 # 為什麼vue可以寫在.vue檔裡面？
 
