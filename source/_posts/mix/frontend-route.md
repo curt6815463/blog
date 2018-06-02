@@ -29,7 +29,6 @@ tags: JS
 
 ### 問題點
 * 使用者每次只要想換頁面，就必須跟後端再發一次請求，然後頁面就會整個重新整理並且吃到新的HTML/CSS，
-
 * 後端要負責 1.跟資料庫溝通 2.處理商業邏輯 3.畫面渲染邏輯
 
 ### AJAX
@@ -72,11 +71,12 @@ window.addEventListener("hashchange", () => {
 
 可使用兩種方式控制url
 
-* 使用 HTML tag `<a>`
+1. 使用 HTML tag `<a>`
 ```css=
 <a href="#123">to 123</a>
 ```
-* 使用location.hash
+
+2. 使用location.hash
 ```javascript=
 location.hash="#123"
 ```
@@ -110,6 +110,6 @@ replaceState 是修改目前的歷史紀錄，並不會像pushState創造一個�
 
 ## 參考資料
 
-[MDN](https://developer.mozilla.org/zh-TW/docs/Web/API/History_API)
-[MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/History/pushState)
-[淺談前端路由](https://github.com/kaola-fed/blog/issues/137)
+* [MDN](https://developer.mozilla.org/zh-TW/docs/Web/API/History_API)
+* [MDN](https://developer.mozilla.org/zh-CN/docs/Web/API/History/pushState)
+* [淺談前端路由](https://github.com/kaola-fed/blog/issues/137)
