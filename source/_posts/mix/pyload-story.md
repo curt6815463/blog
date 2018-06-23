@@ -1,7 +1,7 @@
 ---
 title: Payload 的故事
 date: 2018-06-23 17:27:15
-tags:
+tags: trivia
 ---
 # Payload 的故事
 
