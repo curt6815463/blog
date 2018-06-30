@@ -1,6 +1,6 @@
 ---
 title: Fish Shell 起手式
-date: 2018-06-30 01:36:50
+date: 2018-06-29 01:36:50
 tags: Shell
 ---
 # Fish Shell 起手式
