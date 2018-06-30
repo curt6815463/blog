@@ -15,6 +15,21 @@ GitHub: https://github.com/curt6815463
 Facebook: https://www.facebook.com/profile.php?id=100002203974206
 Linkedin: https://www.linkedin.com/in/curt-liu-549525149/
 
+# Skill
+
+* HTML/CSS 切版，並根據需求製作 RWD 版型
+* 使用 ES6 語法，瞭解原生 Js、Jquery 與前端 Framework 的差異
+* Vue.js 串接網頁 UI 邏輯，熟悉 Vue 生態圈 (vuex, vue-router, vue-cli......)
+* 瞭解 Webpack 基本原理，能改動相關 loader
+* 使用 Git 與多人協作，並能負責 integrate 專案
+* 遠端 repo 搭配 Jenkins 進行自動化部署
+* 使用第三方服務 EX: Facebook Login、Facebook Bot Extensions
+* Node.js 圖像處理 Api
+* 具有敏捷開發專案經驗，瞭解測試驅動開發（TDD）方法
+
+
+
+
 
 <style>
 .post-content {
