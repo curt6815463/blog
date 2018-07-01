@@ -12,9 +12,9 @@ Hi!! 我是 Curt，熱愛研究新技術
 
 Email: curt6815463@gmail.com
 GitHub: https://github.com/curt6815463
-Facebook: https://www.facebook.com/profile.php?id=100002203974206
+Twitter: https://twitter.com/LiuCurt?lang=zh-tw
 Linkedin: https://www.linkedin.com/in/curt-liu-549525149/
-
+Facebook: https://www.facebook.com/profile.php?id=100002203974206
 # Skill
 
 * HTML/CSS 切版，並根據需求製作 RWD 版型
@@ -28,6 +28,106 @@ Linkedin: https://www.linkedin.com/in/curt-liu-549525149/
 * 具有敏捷開發專案經驗，瞭解測試驅動開發（TDD）方法
 
 # Project
+
+{% raw %}
+<div class="project">
+  <div class="project-title">
+    <span>
+      Messenger Extensions 轉帳平台
+    </span>
+    <img class="arrow" src="/static/arrow_right.png" alt="">
+  </div>
+  <div class="project-open-opacity">
+    <div class="project-introduction-content">
+    <img class="project-img" width="24%" src="https://i.imgur.com/TAsmVWx.png" alt="">
+    <img class="project-img" width="24%" src="https://i.imgur.com/1nsVmAw.gif" alt="">
+    <img class="project-img" width="24%" src="https://i.imgur.com/txOd3NO.gif" alt="">
+    <img class="project-img" width="24%" src="https://i.imgur.com/o3z0SDX.png" alt="">
+    </div>
+    <div class="project-introduction-title">
+      User Story
+    </div>
+    <div class="project-introduction-content">
+      此產品為現金轉帳系統，本身已上架於 Android、IOS，業主委託將其實作於 Facebook Messenger Extensions 平台，能與 Messsenger 做些互動 EX: 當 A 使用在產品上決定好轉多少錢給 B 之後，可以直接分享訊息給 B，B 打開後可決定是否接受。
+    </div>
+    <div class="project-introduction-title">
+      負責項目
+    </div>
+    <div class="project-introduction-content">
+      <ul>
+        <li>
+          頁面切版並製作 RWD 版型
+        </li>
+        <li>
+          使用 Vue 以及 Vuex 串接後端 API 處理 UI 邏輯，製作 SPA 應用
+        </li>
+        <li>
+          使用 Facebook Messenger Extensions 產品
+        </li>
+        <li>
+          處理應用程式開啟 Webview 網頁與真實瀏覽器相容問題
+        </li>
+        <li>
+          使用 Node.js 開影像處理 API  
+        </li>
+        <li>
+          配合敏捷開發流程
+        </li>
+        <li>
+          使用 Git-Flow 協作
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+{% endraw %}
+
+{% raw %}
+<div class="project">
+  <div class="project-title">
+    <span>
+      Facebook 直播平台
+    </span>
+    <img class="arrow" src="/static/arrow_right.png" alt="">
+  </div>
+  <div class="project-open-opacity">
+    <div class="project-introduction-content">
+    <img class="project-img" src="https://i.imgur.com/UYpZBlQ.png" alt="">
+    <img class="project-img" src="https://i.imgur.com/OvbhrMj.png" alt="">
+    </div>
+    <div class="project-introduction-title">
+      User Story
+    </div>
+    <div class="project-introduction-content">
+      客戶希望讓直播主在臉書直播競標時，能提供一個平台讓得標者進去下標，並設定付款、取貨方式......等，簡化後續相關作業流程。
+    </div>
+    <div class="project-introduction-title">
+      負責項目
+    </div>
+    <div class="project-introduction-content">
+      <ul>
+        <li>
+          頁面切版並製作 RWD 版型，使用部分 Bootstrap 4 功能
+        </li>
+        <li>
+          使用 Vue 以及 Vuex 串接後端 API 處理 UI 邏輯
+        </li>
+        <li>
+          使用 Facebook Loign 產品及直撥影片嵌入
+        </li>
+        <li>
+          Jenkins 自動化部署
+        </li>
+        <li>
+          設定 Webpack Muti-Entry 根據不同 html file 產生不同 build file
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+{% endraw %}
 
 {% raw %}
 <div class="project">
@@ -48,13 +148,13 @@ Linkedin: https://www.linkedin.com/in/curt-liu-549525149/
       馬拉松公司使用 RFID 晶片紀錄跑者到達終點時間藉此判斷名次，但常發生作弊行為 EX: 男生帶女生晶片代跑，因此希望有套系統可以配合現場 Gopro 攝影機快速查詢。
     </div>
     <div class="project-introduction-title">
-      功能
+      負責項目
     </div>
     <div class="project-introduction-content">
       <ul>
         <li>
           IPICO主機連線：連結多台 IPICO 主機，並使用 socket 監聽跑者晶片，取得晶片到達終點時間
-          </li>
+        </li>
         <li>
           Gopro控制：透過 Gopro Wifi Api 取得攝影機狀態（影片張數、是否攝影中......）、控制攝影機行為（開啟錄影、關機......）
         </li>
@@ -70,8 +170,6 @@ Linkedin: https://www.linkedin.com/in/curt-liu-549525149/
 
 </div>
 {% endraw %}
-
-
 
 <style>
 .post-content {
