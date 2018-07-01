@@ -10,11 +10,6 @@ Hi!! 我是 Curt，熱愛研究新技術
 目前是 Web Front-End Developer (網頁前端工程師)
 並在 [好想工作室](https://www.facebook.com/GoodideasStudio/) 做為 Freelancer 接案
 
-Email: curt6815463@gmail.com
-GitHub: https://github.com/curt6815463
-Twitter: https://twitter.com/LiuCurt?lang=zh-tw
-Linkedin: https://www.linkedin.com/in/curt-liu-549525149/
-Facebook: https://www.facebook.com/profile.php?id=100002203974206
 # Skill
 
 * HTML/CSS 切版，並根據需求製作 RWD 版型
@@ -254,6 +249,12 @@ Facebook: https://www.facebook.com/profile.php?id=100002203974206
 </div>
 {% endraw %}
 
+# Contact
+Email: curt6815463@gmail.com
+GitHub: https://github.com/curt6815463
+Twitter: https://twitter.com/LiuCurt?lang=zh-tw
+Linkedin: https://www.linkedin.com/in/curt-liu-549525149/
+Facebook: https://www.facebook.com/profile.php?id=100002203974206
 
 
 <style>
