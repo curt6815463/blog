@@ -76,6 +76,9 @@ Facebook: https://www.facebook.com/profile.php?id=100002203974206
         <li>
           使用 Git-Flow 協作
         </li>
+        <li>
+          拍照上傳時根據 exif 調整方向以及 canvas 圖片壓縮
+        </li>
       </ul>
     </div>
   </div>
@@ -93,8 +96,8 @@ Facebook: https://www.facebook.com/profile.php?id=100002203974206
   </div>
   <div class="project-open-opacity">
     <div class="project-introduction-content">
-    <img class="project-img" src="https://i.imgur.com/UYpZBlQ.png" alt="">
-    <img class="project-img" src="https://i.imgur.com/OvbhrMj.png" alt="">
+    <img class="project-img" width="42%" src="https://i.imgur.com/UYpZBlQ.png" alt="">
+    <img class="project-img" width="49%" src="https://i.imgur.com/OvbhrMj.png" alt="">
     </div>
     <div class="project-introduction-title">
       User Story
@@ -133,7 +136,44 @@ Facebook: https://www.facebook.com/profile.php?id=100002203974206
 <div class="project">
   <div class="project-title">
     <span>
-      馬拉松終點攝影系統
+      Treroad 網頁維護
+    </span>
+    <img class="arrow" src="/static/arrow_right.png" alt="">
+  </div>
+  <div class="project-open-opacity">
+    <div class="project-introduction-content">
+      <img class="project-img" width="49%" src="https://i.imgur.com/bnxuO7w.png" alt="">
+      <img class="project-img" width="49%" src="https://i.imgur.com/wn7eMxB.png" alt="">
+    </div>
+    <div class="project-introduction-title">
+      User Story
+    </div>
+    <div class="project-introduction-content">
+      希望能提供旅行的人們最方便的交通查詢，不管是公車、捷運、台鐵、高鐵、公共腳踏車、氣候、航班、地圖等資訊，都能夠透過簡單的查詢來取得。
+    </div>
+    <div class="project-introduction-title">
+      負責項目
+    </div>
+    <div class="project-introduction-content">
+      <ul>
+        <li>
+          修改 HTML / CSS
+        </li>
+        <li>
+          修改 Vue 邏輯
+        </li>           
+      </ul>
+    </div>
+  </div>
+
+</div>
+{% endraw %}
+
+{% raw %}
+<div class="project">
+  <div class="project-title">
+    <span>
+      馬拉松終點攝影系統（School Project）
     </span>
     <img class="arrow" src="/static/arrow_right.png" alt="">
   </div>
@@ -153,6 +193,9 @@ Facebook: https://www.facebook.com/profile.php?id=100002203974206
     <div class="project-introduction-content">
       <ul>
         <li>
+          使用 Visual Studio 搭配 C# Window Form 開發
+        </li>
+        <li>
           IPICO主機連線：連結多台 IPICO 主機，並使用 socket 監聽跑者晶片，取得晶片到達終點時間
         </li>
         <li>
@@ -170,6 +213,48 @@ Facebook: https://www.facebook.com/profile.php?id=100002203974206
 
 </div>
 {% endraw %}
+
+{% raw %}
+<div class="project">
+  <div class="project-title">
+    <span>
+      State Diagram Editor （School Project）
+    </span>
+    <img class="arrow" src="/static/arrow_right.png" alt="">
+  </div>
+  <div class="project-open-opacity">
+    <div class="project-introduction-content">
+      <img class="project-img" width="49%" src="https://i.imgur.com/74ccLBu.png" alt="">
+      <img class="project-img" width="49%" src="https://i.imgur.com/4bC20Up.png" alt="">
+    </div>
+    <div class="project-introduction-title">
+      User Story
+    </div>
+    <div class="project-introduction-content">
+      類似於小畫家，專屬於 State Diagram 的製圖軟體
+    </div>
+    <div class="project-introduction-title">
+      負責項目
+    </div>
+    <div class="project-introduction-content">
+      <ul>
+        <li>
+          Eclipse 搭配 Java Window Builder 開發
+        </li>
+        <li>
+          使用 Iterator, Singleton, Strategy Pattern
+        </li>
+        <li>
+          像小畫家一樣，能拖動物件並修改
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+{% endraw %}
+
+
 
 <style>
 .post-content {
