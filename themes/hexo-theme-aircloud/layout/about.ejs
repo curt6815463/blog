@@ -11,12 +11,14 @@
 </div>
 
 <script>
-  let project = document.querySelector('.project')
-  let projectOpenOpacity = document.querySelector('.project-open-opacity')
-  let pti = document.querySelector('.project-title img')
-  project.addEventListener('click', function(e) {
-    this.classList.toggle("project-open")
-    projectOpenOpacity.classList.toggle("open-opacity")
-    pti.classList.toggle("arrow-rotate")
-  });
+  let project = document.querySelectorAll('.project')
+  let projectOpenOpacity = document.querySelectorAll('.project-open-opacity')
+  let pti = document.querySelectorAll('.project-title img')
+  for(let i = 0 ; i < project.length ; i++){
+    project[i].addEventListener('click', function(e) {
+      this.classList.toggle("project-open")
+      projectOpenOpacity[i].classList.toggle("open-opacity")
+      pti[i].classList.toggle("arrow-rotate")
+    })
+  }
 </script>
