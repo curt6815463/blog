@@ -27,12 +27,109 @@ Linkedin: https://www.linkedin.com/in/curt-liu-549525149/
 * Node.js 圖像處理 Api
 * 具有敏捷開發專案經驗，瞭解測試驅動開發（TDD）方法
 
+# Project
 
+{% raw %}
+<div class="project">
+  <div class="project-title">
+    <span>
+      馬拉松終點攝影系統
+    </span>
+    <img class="arrow" src="/static/arrow_right.png" alt="">
+  </div>
+  <div class="project-open-opacity">
+    <div class="project-introduction-content">
+      <img class="project-img" src="https://i.imgur.com/PjOdw9z.png" alt="">
+    </div>
+    <div class="project-introduction-title">
+      User Story
+    </div>
+    <div class="project-introduction-content">
+      馬拉松公司使用 RFID 晶片紀錄跑者到達終點時間藉此判斷名次，但常發生作弊行為 EX: 男生帶女生晶片代跑，因此希望有套系統可以配合現場 Gopro 攝影機快速查詢。
+    </div>
+    <div class="project-introduction-title">
+      功能
+    </div>
+    <div class="project-introduction-content">
+      <ul>
+        <li>
+          IPICO主機連線：連結多台 IPICO 主機，並使用 socket 監聽跑者晶片，取得晶片到達終點時間
+          </li>
+        <li>
+          Gopro控制：透過 Gopro Wifi Api 取得攝影機狀態（影片張數、是否攝影中......）、控制攝影機行為（開啟錄影、關機......）
+        </li>
+        <li>
+          商業邏輯： 透過晶片得到時間後計算該取出 Gopro 哪段影片或照片
+        </li>
+        <li>
+          使用 ffmpeg 套件即時串流攝影機當前畫面
+        </li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+{% endraw %}
 
 
 
 <style>
 .post-content {
   padding-top: 3em;
+}
+.project{
+  max-height: 65px;
+  overflow: hidden;
+  transition: max-height 1s;
+}
+.project-open-opacity{
+  opacity: 0;
+  transition: opacity 1s;  
+}
+.open-opacity{
+  opacity: 1 !important;
+}
+.project-open{
+  max-height: 3000px !important;  
+}
+.project-title{
+  cursor: pointer;
+  color: #3d3d3d;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid #eee;
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+.project-title:hover{
+  color: #979797;
+}
+.arrow{
+  width: 1em;
+  vertical-align: middle;
+  transform: rotate(0deg);
+  transition: transform 0.5s;
+}
+.arrow-rotate{
+  transform: rotate(90deg);
+}
+
+.project-introduction-title{
+  color: #3d3d3d;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+.project-introduction-content{
+  color: #4a4a4a;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 1px;
+
+}
+.project-img{
+  max-width: 100%;
 }
 </style>

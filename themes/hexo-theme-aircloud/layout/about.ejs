@@ -5,7 +5,18 @@
         <%- partial('_partial/donate', null, {cache: false}) %>
     <% } %>
     <div id="comment-container">
-      
+
 
     </div>
 </div>
+
+<script>
+  let project = document.querySelector('.project')
+  let projectOpenOpacity = document.querySelector('.project-open-opacity')
+  let pti = document.querySelector('.project-title img')
+  project.addEventListener('click', function(e) {
+    this.classList.toggle("project-open")
+    projectOpenOpacity.classList.toggle("open-opacity")
+    pti.classList.toggle("arrow-rotate")
+  });
+</script>
